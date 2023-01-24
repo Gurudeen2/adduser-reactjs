@@ -1,0 +1,19 @@
+.header {
+  background-color: rgba(56, 56, 161, 0.733);
+}
+
+.header-h {
+  color: #d48ee7cc;
+  font-size: 1.3rem;
+}
+#link {
+  padding: 1rem;
+  color: #fff;
+}
+#link:hover {
+  background-color: rgba(255, 255, 255, 0.425);
+  color: #000;
+}
+#link:active{
+    background-color: aquamarine;
+}

@@ -1,0 +1,28 @@
+.form {
+  background-color: #fff;
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form input {
+  font: inherit;
+  border-radius: 6px;
+  padding: 0.2rem;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.form button {
+  margin-top: 0.5rem;
+  background-color: #40005d;
+  color: #fff;
+}

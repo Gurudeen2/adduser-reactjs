@@ -1,0 +1,9 @@
+#chatbox{
+    margin-top:4.5rem;
+    margin-left:25rem;
+    margin-right:25rem;
+    min-width:  15%;
+    background-color: black;
+    min-height: 40rem;
+    padding:2rem
+}
