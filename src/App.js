@@ -1,13 +1,8 @@
 import React, { useState } from "react"; //
 import "./App.css";
-// import { Route } from 'react-router-dom'
 import Header from "./components/Header/Header";
-// import Message from "./messages/Message";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpenses from "./components/NewExpenses/NewExpenses";
-import BackendForm from "./components/BackendUI/BackendForm";
-import Landing from "./components/LandingPage/Index";
-import Footer from "./components/LandingPage/Footer/Footer";
 
 import AddUser from "./components/Users/AddUser/AddUser";
 
@@ -37,16 +32,10 @@ function App() {
       <Header />
 
       <AddUser />
-      {/* <UserDisplay /> */}
 
       <NewExpenses data={expenseHandler} />
 
       <Expenses items={data} />
-      {/* <BackendForm />
-
-      <Landing />
-
-      <Footer /> */}
     </div>
   );
 }
