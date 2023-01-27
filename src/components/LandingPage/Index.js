@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Button from "../UI/Button";
 import classes from "./Index.module.css";
 
@@ -9,10 +9,7 @@ import classes from "./Index.module.css";
 const Landing = () => {
   return (
     <React.Fragment>
-      <div
-        className={classes.landing}
-        // style={{ backgroundColor: "black", height: "30rem", padding: "5rem" }}
-      >
+      <Row className={classes.landing}>
         <Col>
           <h2>Experience the best as a backend dev</h2>
           <p>
@@ -33,18 +30,10 @@ const Landing = () => {
             </Button>
           </div>
         </Col>
-        {/* <Col>
-          <div
-            style={{
-              position: "absolute",
-              bottom: 0,
-            }}
-          >
-            Dev List and Github
-          </div>
-        </Col> */}
-      </div>
+        <div className={classes.footer}>Dev List and Github</div>
+      </Row>
     </React.Fragment>
+
     // <>
     //   {/* <main ref="main"> */}
     //     <div className="position-relative">
