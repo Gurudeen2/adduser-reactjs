@@ -7,6 +7,7 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpenses from "./components/NewExpenses/NewExpenses";
 
 import AddUser from "./components/Users/AddUser/AddUser";
+import Landing from "./components/LandingPage/Index";
 
 function App() {
   const expenseData = [
@@ -30,14 +31,17 @@ function App() {
   };
 
   return (
-    <div className="container-fluid App">
-      <Header />
+    <div
+      // className="container-fluid App"
+    >
+      {/* <Header /> */}
+      <Landing />
 
-      <AddUser />
+      {/* <AddUser />
 
       <NewExpenses data={expenseHandler} />
 
-      <Expenses items={data} />
+      <Expenses items={data} /> */}
     </div>
   );
 }
