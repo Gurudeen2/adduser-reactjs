@@ -14,7 +14,7 @@ const Landing = () => {
         // style={{ backgroundColor: "black", height: "30rem", padding: "5rem" }}
       >
         <Col>
-          <h2>Experience the best API for backend dev</h2>
+          <h2>Experience the best as a backend dev</h2>
           <p>
             The RaspberryPi 3 is described as a 64-bit quad core single board
             (SBC) that should have been one of the most cost-effective 64-bit
